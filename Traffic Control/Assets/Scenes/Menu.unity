@@ -1101,7 +1101,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: <color=red>TRAFFIC </color><color=blue> CONTROL</color>
+  m_Text: <color=#FF3D3D>TRAFFIC </color><color=#4466FC> CONTROL</color>
 --- !u!222 &1047391058
 CanvasRenderer:
   m_ObjectHideFlags: 0

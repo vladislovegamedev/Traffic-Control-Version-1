@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class MovementFirstCar : MonoBehaviour
@@ -5,7 +6,6 @@ public class MovementFirstCar : MonoBehaviour
     public GameObject canvasFirst, secondCar, canvasSecond;
     private bool isFirst;
     private CarController _controller;
-
 
     private void Start()
     {
@@ -17,7 +17,7 @@ public class MovementFirstCar : MonoBehaviour
     {
         if (transform.position.x < 8f && !isFirst)
         {
-            isFirst = false;
+            isFirst = true;
             GetComponent<CarController>().speed = 0f;
             canvasFirst.SetActive(true);
         }
@@ -29,7 +29,7 @@ public class MovementFirstCar : MonoBehaviour
             return;
         _controller.speed = 15f;
         canvasFirst.SetActive(false);
-        canvasSecond.SetActive(false);
+        canvasSecond.SetActive(true);
         
         secondCar.GetComponent<CarController>().speed = 12f;
     }

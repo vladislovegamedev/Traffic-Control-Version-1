@@ -123,64 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &46741295
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 46741297}
-  - component: {fileID: 46741296}
-  m_Layer: 0
-  m_Name: GameController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &46741296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 46741295}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b33a0ce71c7c51f48b61b250dc4efb70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maps: []
-  isMenuScene: 0
-  timeToSpawnFrom: 2
-  timeToSpawnTo: 4.5
-  cars:
-  - {fileID: 100008, guid: 1989787f5d4f08647a723f7cb7df5f05, type: 3}
-  - {fileID: 100008, guid: ca6a542169d8e474aa2c2cb47423839a, type: 3}
-  countCars: 0
-  canvasLosePanel: {fileID: 343110779}
-  nowScore: {fileID: 1047391057}
-  topScore: {fileID: 0}
-  coinsCount: {fileID: 0}
-  horn: {fileID: 0}
-  turnSignal: {fileID: 0}
-  AdObject: {fileID: 0}
---- !u!4 &46741297
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 46741295}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.04842, y: -21.365665, z: 11.59688}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &175777318
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,7 +498,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &343110780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1010,7 +952,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: <color=red>TAP CAR </color>
+  m_Text: <color=#FF3D3D>TAP CAR </color>
 --- !u!222 &1047391058
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1241,7 +1183,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: <color=#3A2BFF>WATCH THE LIGHTS  DON'T LET CARS CRASH</color>
+  m_Text: <color=#4466FC>WATCH THE LIGHTS  DON'T LET CARS CRASH</color>
 --- !u!222 &1354709904
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2189,7 +2131,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2038027370
 MonoBehaviour:
   m_ObjectHideFlags: 0
